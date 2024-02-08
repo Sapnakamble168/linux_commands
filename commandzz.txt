@@ -1,0 +1,133 @@
+1. file operations :   
+1.ls (list) = list all the files in present working directory.
+2. ls-a ( a- flag ) = it display the hidden files.
+3. ls-r =  lists fils in sub directories also.
+4. ls-al = ists files and directories with detailed information like permission , size, etc.
+5. cd (change directory) = it switches from one directory to another directory.
+6. cd../.. = it goes back 2 folder back.
+7. pwd (print working directory) = displays the current working directory 
+      or 
+     it shows currently where we are.
+8. cat >filename = creates a new file and allows us to write something in it.
+9. cat filename = it display content present in file.
+10. cat >>filename = it appends.
+11. cat >filename = it overrides and shows the recent content.
+12. touch = creates a empty file.
+13.mv sourcefile destinationfile (mv - move)
+     sourcefile : is the file which we want to transfer
+     destinationfile : is the file /place where we want to transfer the file.
+14. find / -name filename = finds a file or a directory by its name stating from root.
+15. file filename = determines the file type.
+16. less filename = views the file content page by page.
+17. head filename = views the first ten lines of a file.
+18. tail filename = views the last ten lines of a file.
+19. lsof ( list of open file ) = it shows which files are opened by which process.
+20. fdisk = to manipulation partition tables.
+21.fdisk -n = add a new partition.
+22. fdisk-p = prints the partition table.
+23. fdisk-w = write the table to the hard drive.
+ 
+2. directory operations :
+
+1. mkdir (make directory) = creates a new directory in the present working dorectory.
+2. rm -rf filename = removes directory.
+3. cd -r source destination = copies dictories recursively.
+  
+3. process operations :
+
+1. ps (process troubleshooting ) = displays your currently active process.
+2. top = displays all running processes.
+3. kill pid = kills the process with given pid.
+4. pkill name = kills the process with the given name.
+5. bg = resumes suspended jobs without bringing them to foreground.
+6. fg = brings the most recent job to foreground.
+7. fg n = brings job n to the foreground.
+8. renice +n [pid] = change the priority of a running process.
+
+4. file permissions :
+ 
+1. chmod ( change mode ) octal filename = change the permission of file to octal.
+    which can ne between 0 (no permission ) to 7 ( full permission ).
+2. ch own filename = change file owner.
+3. chgrp groupname filename = change group owner.
+
+5. system info :
+ 
+1. date = display the current date nd time.
+2. cal = display present month's calender. 
+3. uptime = display current uptime.
+4. w = display who is online.
+5. whoami = who you are logged in as.
+6. uname -a = display kernel name.
+7. df -h = display disk usage in human readable format.
+8. du -sh = display disk usage of current directory in human readable format.
+9. free -m = display free and used memory in MB.
+
+6. disk usage :
+
+1. df = display disk usage.
+2. du = display directory space usge.
+3. free = display show memory and swap usage.
+4. where is app = display possible location of app.
+
+7. networking :
+
+1. ping host = ping a host and outputs results.
+2. whois domain = 
+3. dig domain = get DNS information for domain.
+4. ifconfig = displays IP address of all network interfaces.
+5. ssh user@host = remote login into the host as user.
+6. scp = transfers files between hosts over ssh.
+7. wget url = download files from web.
+8. curl url = sends a request to a url and returns the response.
+9. nmap = network exploration tool and security scanner.
+
+8. archives and compression :
+  
+1. gzip file = compresses file and rename it to file.gz.
+2. gzip -d file.gz = decompresses file .gz back to file.
+3. zip -r file.zip files = create a zip archive named file.zip.
+4. unzip file.zip = extract the contents of a zip file.
+
+9.version control (git commands) :
+
+1. git init = initialize a local git repository.
+2. git clone url = creates a local copy of a remote repository.
+3. git add filename = it add the files to a staging or including area.
+4. git commit -m"commit message" = it will commit a file to a local repository or master branch.
+    -m flag allows us to add a proper message.
+5. git status = display all the files which are in staging /index area .
+6. git log = it displays the history of commits.
+7. git show commit id = displays the id .
+8. git pull = pull the remote repository to the local repository.
+9. git push = pushes the local repository to the remote repository.
+10. git branch = list all the local branches.
+11. git branch branchname = create a new branch.
+12. git checkout branchname = switch to a branch.
+13. git merge branchname = merge a branch into the active branch.
+14. git reset = reset your HEAD pointer to a previous commit.
+15. 
+5. git status = 
+touch = creates a empty file
+ 2. cat >filename = creates a file and allows us to write something in it
+ 3. cat >>filename = it appends
+ 4. cat >filename = it overrides and shows the recent content
+ 5. cat filename = it shows content present in file
+ 6. ls (list) = list all the files and directories
+ 7. mkdir (make directory) = creates a folder
+ 8. cd (change directory) = it switches from one directory to another directory
+ 9. rm filename (remove) = delete file.
+ 10. cd../.. = it goes back 2 folder back
+ 11. vi editor (visual editor)
+      syntax : vi_filename = it allows to edit,delete,etc
+      press i,to save ,press esc,colon and wq to save and exit
+ 12. nano_filename
+ 13. rm filename (remove) = removes file
+ 14. rm -rf_filename = removes folder
+ 15. ls-a ( a- flag ) = it shows the hidden file
+ 16. cat .filename = it creates a hidden file
+ 17. mv_sourcefile_destinationfile (mv - move)
+     sourcefile : is the file which we want to transfer
+     destinationfile : is the file /place where we want to transfer the file
+ 18. in linux we use echo to print any thything
+  
